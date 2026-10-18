@@ -1,0 +1,41 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+.config/gcloud/
+application_default_credentials.json
+*service-account*.json
+*credentials*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local data and generated evidence; review before publishing
+data/
+downloads/
+artifacts/
+screenshots/
+logs/
+*.log
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Infrastructure state and local tools
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
